@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <script src="code.js"></script>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Heading for the page -->
+    <h1>Craps Game</h1>
+    
+    <!-- Paragraph for displaying the result -->
+    <p id="lblResult">Press 'Roll Dice' to start the game.</p>
+    
+    <!-- Container for the dice images -->
+    <div id="diceContainer">
+        <div id="pbDieImage1"></div>
+        <div id="pbDieImage2"></div>
+    </div>
+
+    <!-- Button for rolling the dice -->
+    <button id="btnRollDice" onclick="rollDice()">Roll Dice</button>
+
+    <!-- Button for playing again, initially disabled -->
+    <button id="btnPlayAgain" onclick="playAgain()" disabled>Play Again</button>
+
+
+</body>
+</html>

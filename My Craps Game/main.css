@@ -1,0 +1,96 @@
+/* 
+declaration block:
+selector {
+    property: value;
+    property: value;
+    property: value;
+} 
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7900be;
+    color: #ffffff;
+}
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+#memeImage{
+    margin-right: 200px;
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Styling for the container holding the dice images */
+#diceContainer {
+    display: flex; /* Use a flexbox layout for the container */
+    justify-content: center; /* Center content horizontally within the container */
+    align-items: center; /* Center content vertically within the container */
+    margin-top: 20px; /* Add margin at the top of the container */
+}
+
+/* Styling for each individual dice image */
+#pbDieImage1, #pbDieImage2 {
+    width: 100px; /* Set the width of each image */
+    height: 100px; /* Set the height of each image */
+    margin: 10px; /* Add margin around each image */
+    background-size: cover; /* Ensure the background image covers the container */
+    border: 3px solid #3498db; /* Set a border around each image with a specific color */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    /* Add a smooth transition effect when transforming (e.g., rotating) the image */
+    transition: transform 0.5s ease-in-out; 
+}
+
+/* Hover effect for dice images when hovered */
+#pbDieImage1:hover, #pbDieImage2:hover 
+{
+    /* Rotate the images 360 degrees when hovered */
+    transform: rotate(360deg); 
+}
+
+ /* Styling for buttons */
+ button {
+    font-size: 20px; /* Set the font size for buttons */
+    padding: 12px 24px; /* Set padding for buttons */
+    margin: 20px; /* Add margin around buttons */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    background-color: #3498db; /* Set the background color for buttons */
+    color: white; /* Set the text color for buttons */
+    border: none; /* Remove border from buttons */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    text-decoration: none; /* Remove default text decoration */
+    /* Add a smooth transition effect when changing 
+    the background color of buttons */
+    transition: background-color 0.3s ease-in-out; 
+}
+
+/* Styling for disabled buttons */
+button:disabled 
+{
+    /* Set the background color for disabled buttons */
+    background-color: #95a5a6; 
+    /* Set cursor to not-allowed for disabled buttons */
+    cursor: not-allowed; 
+}
+
+/* Hover effect for buttons */
+button:hover 
+{
+    /* Change the background color of buttons when hovered */
+    background-color: #2980b9; 
+}
+
+/* Styling for the result text */
+#lblResult {
+    color: #2c3e50; /* Result text color */
+}
