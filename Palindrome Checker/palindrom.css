@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif; /* Font style */
+    text-align: center; /* Centered text */
+}
+h1 {
+    color: #2e8b57; /* Dark green color for the header */
+}
+input {
+    padding: 10px; /* Padding for input */
+    margin: 10px; /* Margin for input */
+}
+button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #4682b4; /* Steel blueish button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+}
