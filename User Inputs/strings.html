@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Form</title>
+    <!-- Maciej Bury -->
+    <link href="palindrom.css" rel="stylesheet">
+</head>
+<body>
+    <h1>User Input Form</h1>
+    <form id="userForm" onsubmit="return validateInputs()">
+        <!-- Input for first name -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+
+        <!-- Input for last name -->
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required>
+
+        <!-- Input for zip code -->
+        <label for="zipCode">Zip Code:</label>
+        <input type="text" id="zipCode" required>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Div to display messages -->
+    <div id="message"></div>
+    
+    <script src="palindrom.js"></script>
+</body>
+</html>
