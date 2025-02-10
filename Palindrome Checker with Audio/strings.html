@@ -1,0 +1,35 @@
+    <!-- Maciej Bury -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title and link to css file -->
+    <title>Palindrome Checker</title>
+    <link href="palindrom.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Palindrome Checker</h1>
+    <!-- Form ID for the Palindrome Checker -->
+    <form id="checker">
+        <!-- Input types and button -->
+        <input type="text" id="userInput" placeholder="Enter a string" required>
+        <button type="submit">Check</button>
+    </form>
+    <!-- Result div -->
+    <div id="result"></div>
+
+    <!-- Background sound that plays when the page loads -->
+    <audio id="backgroundSound" autoplay loop>
+        <source src="background.mp3" type="audio/mpeg"> <!-- Background audio file -->
+    </audio>  
+    
+    <!-- Buttons to play and stop the background sound -->
+    <button id="playAudio">Play Background Music</button>
+    <button id="stopAudio">Stop Background Music</button>
+    
+    <!-- JS for palindrome to hold all the functions -->
+    <script src="palindrom.js"></script>
+</body>
+</html>

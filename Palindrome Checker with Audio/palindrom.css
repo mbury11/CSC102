@@ -1,0 +1,19 @@
+body {
+    background-color: #14b92a; /* Light green background */
+    font-family: Arial, sans-serif; /* Font style */
+    text-align: center; /* Centered text */
+}
+h1 {
+    color: #dfa72f; /* Orange color for the header */
+}
+input {
+    padding: 10px; /* Padding for input */
+    margin: 10px; /* Margin for input */
+}
+button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #023661; /* Dark blue button */
+    color: rgb(209, 56, 56); /* Red text color */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+}
